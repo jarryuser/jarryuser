@@ -7,7 +7,7 @@
 
 *Love open-source and also want to contribute to the development of this industry*
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-filurskyi.dev-00d9c8?style=for-the-badge&logoColor=white)](https://jarryuser.github.io/jarry.user.github.io/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-filurskyi.dev-00d9c8?style=for-the-badge&logoColor=white)](https://jarryuser.t5hnvhvcms.workers.dev/)
 [![Email](https://img.shields.io/badge/Email-dmytrofiliurskyi@tutamail.com-6e57ff?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dmytrofiliurskyi@tutamail.com)
 
 </div>
@@ -88,7 +88,7 @@ Open to **full-time, part-time** and **internships** positions
 </div>
 <div align="center">
 
-[![Portfolio website](https://img.shields.io/badge/🌐%20Resume%20Website-Visit-00d9c8?style=for-the-badge)](https://your-username.github.io)
+[![Portfolio website](https://img.shields.io/badge/🌐%20Resume%20Website-Visit-00d9c8?style=for-the-badge)](https://jarryuser.t5hnvhvcms.workers.dev/)
 [![Send email](https://img.shields.io/badge/📧%20Email%20me-dmytrofiliurskyi@tutamail.com-6e57ff?style=for-the-badge)](mailto:dmytrofiliurskyi@tutamail.com)
 
 </div>
