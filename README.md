@@ -2,7 +2,7 @@
 
 # Hey, I'm Dmytro 👋
 
-**Software Engineer | OpenAI API/LLMs | Python/OpenCV/TensorFlow | HTML/CSS/JS** 
+**Software Engineer | LLMs/RAG · TypeScript · Python · Cloudflare**
 · Košice, Slovakia
 
 *Love open-source and also want to contribute to the development of this industry*
@@ -16,12 +16,11 @@
 
 ## 🧑‍💻 About me
 
-BSc in **Intelligent Systems** from TUKE, Slovakia. I build things at the intersection of AI and clean user interfaces - from drone vision systems to embedded controllers to web apps. 
-Fast learner, comfortable in Python and C#, passionate about making smart tech usable. I'm a studying <strong>Intelligent Systems</strong> at the Technical University of Košice, with a deep
+I'm studying <strong>Intelligent Systems</strong> at the Technical University of Košice, with a deep
 passion for the places where AI meets the real world - drones that recognize handwriting, solvers that think step-by-step, embedded systems that blink in perfect timing.
 <br><br>
-My work spans <strong>neural networks</strong>, <strong>computer vision</strong>, <strong>embedded systems</strong>, and <strong>front-end development</strong>. I enjoy building things \
-end-to-end: from training a model to shipping a clean UI that makes it usable. I'm a fast learner, comfortable in both Python and C# environments, and I thrive in collaborative teams where
+My work spans <strong>LLMs and RAG pipelines</strong>, <strong>computer vision</strong>, <strong>full-stack web development</strong>, and <strong>embedded systems</strong>. I enjoy building things
+end-to-end: from training a model to shipping a clean UI that makes it usable. I'm a fast learner, comfortable in both Python and TypeScript environments, and I thrive in collaborative teams where
 experimentation is encouraged
 
 ---
@@ -69,17 +68,19 @@ experimentation is encouraged
 | 01 | **GitHub Activity Visualizer** | Dashboard for any GitHub profile - contribution heatmap, language breakdown, top repos, side-by-side profile comparison | TypeScript · D3.js · Vite · Cloudflare Workers · GitHub API | [Demo](https://jarryuser.github.io/github-visualizer/) · [GitHub](https://github.com/jarryuser/github-visualizer) |
 | 02 | **RAG Chatbot** | Document Q&A chatbot - upload PDFs/DOCX/CSV/web pages and ask questions; hybrid search + re-ranking, runs fully in Docker | Python · FastAPI · React · LangChain · ChromaDB · Groq (Llama 3.3 70B) · Docker | [GitHub](https://github.com/jarryuser/rag-chatbot) |
 | 03 | **Markdown Previewer** | Split-view Markdown editor with live preview, CodeMirror editor, KaTeX math, Vim mode, and a CLI (`mdp`) that opens any `.md` file in the browser | TypeScript · Vite · marked.js · highlight.js · Node.js | [Demo](https://jarryuser.github.io/markdown-previewer/) · [GitHub](https://github.com/jarryuser/markdown-previewer) |
-| 04 | **Portfolio Website** | Personal portfolio with a contact form - static site served via Cloudflare Workers with a serverless email handler | HTML · CSS · JS · Cloudflare Workers | [Live](https://jarryuser.t5hnvhvcms.workers.dev/) |
+| 04 | **Calendar** | Privacy-first browser calendar - no accounts, no server; month/week/day/agenda views, recurring events with RRULE, drag-and-drop, natural language input, native desktop app via Tauri | TypeScript · React · Vite · Tauri · Dexie.js · Tailwind CSS | [GitHub](https://github.com/jarryuser/calendar-app) |
+| 05 | **Spotify Stats CLI** | CLI that authorizes via OAuth and shows top tracks and artists over the last month, six months, or all time - as colorized terminal tables or a styled HTML report | Python · Spotipy · Jinja2 · Rich · argparse | [GitHub](https://github.com/jarryuser/spotify-stats-cli) |
+| 06 | **Portfolio Website** | Personal portfolio with a contact form - static site served via Cloudflare Workers with a serverless email handler | HTML · CSS · JS · Cloudflare Workers | [Live](https://jarryuser.t5hnvhvcms.workers.dev/) |
 
 ### Academic & study projects
 
 | # | Project | Stack |
 |---|---------|-------|
-| 05 | **AI Drone Handwriting Mimic System** - drone that recognizes digits and redraws them mid-air | Python · OpenCV · TensorFlow · UAV SDK |
-| 06 | **Traffic Light Simulation** - programmable multi-mode traffic light on Arduino | Arduino · C++ |
-| 07 | **2D Platformer Game** - exam project with custom physics and movement | C# · Unity |
-| 08 | **AI Sudoku Solver** - backtracking + heuristics with step-by-step GUI | Python · Tkinter |
-| 09 | **CLI Task Manager** - terminal to-do app with categories, deadlines & file persistence | Python · argparse · JSON |
+| 07 | **AI Drone Handwriting Mimic System** - drone that recognizes digits and redraws them mid-air | Python · OpenCV · TensorFlow · UAV SDK |
+| 08 | **Traffic Light Simulation** - programmable multi-mode traffic light on Arduino | Arduino · C++ |
+| 09 | **2D Platformer Game** - exam project with custom physics and movement | C# · Unity |
+| 10 | **AI Sudoku Solver** - backtracking + heuristics with step-by-step GUI | Python · Tkinter |
+| 11 | **CLI Task Manager** - terminal to-do app with categories, deadlines & file persistence | Python · argparse · JSON |
 
 ---
 
