@@ -2,12 +2,12 @@
 
 # Hey, I'm Dmytro 👋
 
-**Software Engineer | LLMs/RAG · TypeScript · Python · Cloudflare**
+**Software Engineer | Python · TypeScript · Rust · LLMs/RAG · Desktop & Web**
 · Košice, Slovakia
 
-*Love open-source and also want to contribute to the development of this industry*
+*I build open-source tools for developers and everyday workflows.*
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-filurskyi.dev-00d9c8?style=for-the-badge&logoColor=white)](https://jarryuser.jarryuser.workers.dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00d9c8?style=for-the-badge&logoColor=white)](https://jarryuser.t5hnvhvcms.workers.dev/)
 [![Email](https://img.shields.io/badge/Email-dmytrofiliurskyi@tutamail.com-6e57ff?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dmytrofiliurskyi@tutamail.com)
 
 </div>
@@ -19,15 +19,16 @@
 I'm studying <strong>Intelligent Systems</strong> at the Technical University of Košice, with a deep
 passion for the places where AI meets the real world - drones that recognize handwriting, solvers that think step-by-step, embedded systems that blink in perfect timing.
 <br><br>
-My work spans <strong>LLMs and RAG pipelines</strong>, <strong>computer vision</strong>, <strong>full-stack web development</strong>, and <strong>embedded systems</strong>. I enjoy building things
-end-to-end: from training a model to shipping a clean UI that makes it usable. I'm a fast learner, comfortable in both Python and TypeScript environments, and I thrive in collaborative teams where
-experimentation is encouraged
+My public projects focus on <strong>LLMs and RAG pipelines</strong>, <strong>developer tools</strong>, <strong>full-stack web development</strong>, and <strong>desktop applications</strong>. I build document Q&A systems in Python, browser apps in TypeScript, and native desktop tools with Rust and Tauri.
+<br><br>
+I enjoy building things end-to-end: retrieval and APIs, local storage and process management, and interfaces that make those systems usable. My academic interests also include computer vision and embedded systems.
 
 ---
 
 ## 🛠 I code with
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?logo=C&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
@@ -44,6 +45,9 @@ experimentation is encouraged
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+
 ## ⚙️ Tools & Platforms
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
@@ -52,6 +56,9 @@ experimentation is encouraged
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-FFFFFF?style=flat-square&logo=unity&logoColor=black)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
@@ -61,28 +68,35 @@ experimentation is encouraged
 
 ## 🚀 Projects
 
-### Personal projects
+### Open-source projects
 
 | # | Project | Description | Stack | Links |
 |---|---------|-------------|-------|-------|
-| 01 | **Calendar** | Privacy-first browser calendar - no accounts, no server; month/week/day/agenda/year views, recurring events with RRULE, drag-and-drop, natural language input, native desktop app via Tauri | TypeScript · React · Vite · Tauri · Dexie.js · Tailwind CSS | [GitHub](https://github.com/jarryuser/calendar-app) |
-| 02 | **Kindalibre Translate** | "Kinda libre" browser translator powered by the LibreTranslate API - no backend, 50+ languages, auto-detect, translation variants, text-to-speech, dark/light theme; deploys to GitHub Pages | TypeScript · Vite · LibreTranslate API · GitHub Pages | [Demo](https://jarryuser.github.io/kindalibre-translate/) · [GitHub](https://github.com/jarryuser/kindalibre-translate) |
-| 03 | **CoEx** | CLI tool that walks through how code works step by step - static structure analysis plus plain-language explanations from a local LLM (Ollama); everything runs locally and offline | Python · ast + tree-sitter · argparse · Ollama | [GitHub](https://github.com/jarryuser/coex) |
-| 04 | **Markdown Previewer** | Split-view Markdown editor with live preview, syntax highlighting, KaTeX math, Vim mode, and a CLI (`mdp`) that opens any `.md` file in the browser | TypeScript · Vite · marked.js · highlight.js · Node.js | [Demo](https://jarryuser.github.io/markdown-previewer/) · [GitHub](https://github.com/jarryuser/markdown-previewer) |
-| 05 | **GitHub Activity Visualizer** | Dashboard for any GitHub profile - contribution heatmap, language breakdown, top repos, side-by-side profile comparison | TypeScript · D3.js · Vite · Cloudflare Workers · GitHub API | [Demo](https://jarryuser.github.io/github-visualizer/) · [GitHub](https://github.com/jarryuser/github-visualizer) |
-| 06 | **RAG Chatbot** | Document Q&A chatbot - upload PDFs/DOCX/CSV/web pages and ask questions; hybrid search + re-ranking, runs fully in Docker | Python · FastAPI · React · LangChain · ChromaDB · Groq (Llama 3.3 70B) · Docker | [GitHub](https://github.com/jarryuser/rag-chatbot) |
-| 07 | **NewsBot** | Telegram bot delivering personalised news digests from Google News on a schedule - multi-language, headline translation, keyword search, full inline settings, SQLite-backed | Python · python-telegram-bot · SQLite · feedparser · httpx · deep-translator | [GitHub](https://github.com/jarryuser/tg-news-bot) |
-| 08 | **Portfolio Website** | Personal portfolio with a contact form - static site served via Cloudflare Workers with a serverless email handler | HTML · CSS · JS · Cloudflare Workers | [Live](https://jarryuser.t5hnvhvcms.workers.dev/) |
+| 01 | **RAG Chatbot** | Document Q&A for PDF, DOCX, TXT/Markdown, CSV/Excel, and web pages. Hybrid vector + BM25 retrieval, cross-encoder re-ranking, parent/child chunks, source citations, streaming answers, and separate chat sessions. Local embeddings; Groq or local Ollama for generation | Python · FastAPI · React · LangChain · ChromaDB · Sentence Transformers · Docker | [GitHub](https://github.com/jarryuser/rag-chatbot) |
+| 02 | **RepoShelf** | Desktop dashboard for local Git repositories: branch and change status, staged/unstaged diffs, latest commits, editor shortcuts, detected project commands, and process logs with file-system updates | Rust · Tauri 2 · React · TypeScript · Vite · Git CLI | [GitHub](https://github.com/jarryuser/RepoShelf) |
+| 03 | **iStickies** | Desktop sticky notes for macOS and Linux with Markdown preview, external terminal editor integration, a built-in editor, tray controls, custom storage, and recovery of deleted notes and previous versions | Rust · Tauri 2 · JavaScript · CSS · marked · DOMPurify | [GitHub](https://github.com/jarryuser/iStickies) |
+| 04 | **Calendar** | Offline personal calendar with five views, recurring events and per-instance exceptions, drag-and-drop, natural language input, and iCalendar import/export. Stores events locally in IndexedDB; also runs as a Tauri desktop app | TypeScript · React · Vite · Tauri 2 · Dexie.js · Zustand · Tailwind CSS · RRULE | [GitHub](https://github.com/jarryuser/calendar-app) |
+| 05 | **CoEx** | CLI for step-by-step code walkthroughs using Python AST and tree-sitter. Call graphs, complexity estimates, Python pattern checks, line-by-line explanations, Markdown/JSON reports, and optional local Ollama explanations and suggested fixes. Offline after parser/model setup | Python · ast · tree-sitter · argparse · Ollama | [GitHub](https://github.com/jarryuser/coex) |
+| 06 | **Markdown Previewer** | Split-view CodeMirror editor with live Markdown preview, Vim mode, KaTeX, Mermaid, image paste/drop, and HTML/PDF export. The `mdp` CLI supports files/directories, live reload, terminal output, and an interactive TUI | TypeScript · Vite · CodeMirror · marked · highlight.js · KaTeX · Node.js · blessed | [Demo](https://jarryuser.github.io/markdown-previewer/) · [GitHub](https://github.com/jarryuser/markdown-previewer) |
+| 07 | **GitHub Activity Visualizer** | Profile and organization dashboard with contribution and coding-hours heatmaps, language breakdown, activity trends, repository health, profile comparison, embeddable cards, and PNG export. Worker proxy keeps the GitHub token server-side and caches responses in KV | TypeScript · D3.js · Vite · Cloudflare Workers · Workers KV · GitHub API | [Demo](https://jarryuser.github.io/github-visualizer/) · [GitHub](https://github.com/jarryuser/github-visualizer) |
+| 08 | **Kindalibre Translate** | Browser translator with configurable LibreTranslate instances and optional LLM providers, including OpenAI-compatible endpoints and Anthropic. Auto-detection, alternative translations, live mode, and text-to-speech; available languages depend on the engine and instance | TypeScript · Vite · LibreTranslate API · LLM APIs · GitHub Pages | [Demo](https://jarryuser.github.io/kindalibre-translate/) · [GitHub](https://github.com/jarryuser/kindalibre-translate) |
+| 09 | **NewsBot** | Telegram news digests from Google News RSS with scheduled delivery, time zones, topic selection, keyword search, optional headline translation, multilingual controls, and SQLite-backed settings | Python · python-telegram-bot · aiosqlite · feedparser · httpx · deep-translator | [GitHub](https://github.com/jarryuser/tg-news-bot) |
+
+### Portfolio website
+
+Personal portfolio with a contact form, hosted on Cloudflare Workers.
+
+[Visit portfolio](https://jarryuser.t5hnvhvcms.workers.dev/) · [Download résumé (PDF)](Dmytro%20Filiurskyi%20-%20Software%20Engineer.pdf)
 
 ### Academic & study projects
 
 | # | Project | Stack |
 |---|---------|-------|
-| 09 | **AI Drone Handwriting Mimic System** - drone that recognizes digits and redraws them mid-air | Python · OpenCV · TensorFlow · UAV SDK |
-| 10 | **Traffic Light Simulation** - programmable multi-mode traffic light on Arduino | Arduino · C++ |
-| 11 | **2D Platformer Game** - exam project with custom physics and movement | C# · Unity |
-| 12 | **AI Sudoku Solver** - backtracking + heuristics with step-by-step GUI | Python · Tkinter |
-| 13 | **CLI Task Manager** - terminal to-do app with categories, deadlines & file persistence | Python · argparse · JSON |
+| 10 | **AI Drone Handwriting Mimic System** - drone that recognizes digits and redraws them mid-air | Python · OpenCV · TensorFlow · UAV SDK |
+| 11 | **Traffic Light Simulation** - programmable multi-mode traffic light on Arduino | Arduino · C++ |
+| 12 | **2D Platformer Game** - exam project with custom physics and movement | C# · Unity |
+| 13 | **AI Sudoku Solver** - backtracking + heuristics with step-by-step GUI | Python · Tkinter |
+| 14 | **CLI Task Manager** - terminal to-do app with categories, deadlines & file persistence | Python · argparse · JSON |
 
 ---
 
@@ -90,10 +104,10 @@ experimentation is encouraged
 
 | Language | Level |
 |----------|-------|
-| 🇺🇦 Ukrainian | Native (C2) |
-| 🇷🇺 Russian | Native (C2) |
+| 🇺🇦 Ukrainian | Native |
+| 🇷🇺 Russian | Native |
 | 🇸🇰 Slovak | Intermediate (B1) |
-| 🇬🇧 English | Upper Intermediate (B2) |
+| 🇬🇧 English | Upper-intermediate (B2) |
 
 ---
 
@@ -101,7 +115,7 @@ experimentation is encouraged
 
 <div align="center">
 
-Open to **full-time, part-time** and **internships** positions
+Open to **full-time and part-time roles**, as well as **internships**
 
 </div>
 <div align="center">
